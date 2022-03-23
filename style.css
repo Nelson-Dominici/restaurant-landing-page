@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+p{
+    font-family: 'Open Sans',sans-serif;
+}
+
+header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+header img{
+    cursor: pointer;
+}
+
+header:first-child{
+    margin-left: 130px;
+}
+
+.menu-header{
+    margin-right: 130px;
+}
+
+/*----------------------------------- conteudo-cont1 --------------------------------------*/
+
+.conteudo-cont1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.texto-cont1 p{
+    font-size: 14px;
+    line-height: 2.2;
+}
+
+.p-cont{
+    width: 450px;
+    margin-top: 20px;
+}
+
+#imgFrom{
+    margin-top: 10px;
+}
+
+.texto-cont1 button{
+    padding: 12px;
+    background-color:#e81922;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    width: 180px;
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: 'Open Sans',sans-serif;
+    letter-spacing: 1px;
+    margin-top: 35px;
+}
+
+.p-cont span{
+    border-bottom: 1px solid black;
+}
+
+.conteudo-cont1 h1{
+    font-family: Ubuntu, sans-serif;
+    font-size: 4.3rem;
+    font-weight: 400;
+}
+
+#h1-1 h1{
+    color: #c41921;
+}
+
+#h1-2{
+    margin-top: -15px;
+}
+
+/*--------------------------------------- img-cont1 ---------------------------------------*/
+
+.img-text1{
+    width: 450px;
+    height: 450px;
+    background-image: url("images/container1-imgs/chefe.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: none;
+}
+
+/*-------------------------------------- responsivo -----------------------------------*/
+
+@media screen and (max-width: 982px) {
+    .img-text1 {
+        width: 390px;
+        height: 390px;
+    }
+
+    header:first-child {
+        margin-left: 50px;
+    }
+
+    .menu-header {
+        margin-right: 50px;
+    }
+
+    .p-cont {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 822px) {
+    .img-text1 {
+        width: 330px;
+        height: 330px;
+    }
+
+    .p-cont {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .conteudo-cont1 h1 {
+        font-size: 4.0rem;
+        font-weight: 400;
+        
+    }
+    .conteudo-cont1 {
+        justify-content: center;
+    }
+
+    .img-text1 {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 694px) {
+    .p-cont {
+        width: 270px;
+    }
+
+    .conteudo-cont1 h1 {
+        font-size: 3.60rem;
+    }
+
+    .img-text1 {
+        width: 260px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 626px) {
+    .conteudo-cont1 {
+        flex-direction: column;
+    }
+
+    .p-cont {
+        width: 450px;
+    }
+
+    .conteudo-cont1 h1 {
+        font-size: 3.90rem;
+    }
+
+    .img-text1 {
+        margin-top: 40px;
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 506px) {
+    .p-cont {
+        width: 340px;
+    }
+
+    .conteudo-cont1 h1 {
+        font-size: 3.60rem;
+    }
+}
+
+@media screen and (max-width: 418px) {
+    header:first-child {
+        margin-left: 30px;
+    }
+
+    .menu-header {
+        margin-right: 30px;
+    }
+
+    .p-cont {
+        width: 307px;
+    }
+
+    .conteudo-cont1 h1 {
+        font-size: 3.40rem;
+        font-weight: 500;
+    }
+
+    .img-text1 {
+        margin-top: 55px;
+        width: 305px;
+        height: 305px;
+    }
+}
