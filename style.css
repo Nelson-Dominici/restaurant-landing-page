@@ -76,11 +76,10 @@ header:first-child{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 .texto-cont1 p{
-    font-size: 14px;
     line-height: 2.2;
 }
 
@@ -94,26 +93,33 @@ header:first-child{
 }
 
 .texto-cont1 button{
-    padding: 12px;
+    padding: 15px;
     background-color:#e81922;
     color: white;
     border: none;
     border-radius: 60px;
-    width: 180px;
+    width: 220px;
     font-weight: bolder;
-    font-size: 14px;
+    font-size: 17px;
     font-family: 'Open Sans',sans-serif;
     letter-spacing: 1px;
     margin-top: 35px;
+    cursor: pointer;
+}
+
+.texto-cont1 button:hover{
+    background-color: black;
+
 }
 
 .p-cont span{
     border-bottom: 1px solid black;
+    cursor: pointer;
 }
 
 .conteudo-cont1 h1{
     font-family: Ubuntu, sans-serif;
-    font-size: 4.3rem;
+    font-size: 5.5rem;
     font-weight: 400;
 }
 
@@ -138,7 +144,45 @@ header:first-child{
     border: none;
 }
 
+/*------------------------------------- imgs-cont2 --------------------------------------------*/
+
+.conteudo-cont2{
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    justify-content: center;
+    margin-top: 50px;
+    grid-column-gap: 10px;
+    margin-bottom: 50px;
+}
+
+.imgCont{
+    width: 270px;
+    height: 270px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imgCont img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgsZoom{
+    transition: all 0.5s;
+}
+
+.imgsZoom:hover{
+    transition: 0.5s;
+    transform: scale(1.1)
+}
+
 /*-------------------------------------- responsivo -----------------------------------*/
+
+@media screen and (max-width: 1176px) {
+ 
+}
+
 
 @media screen and (max-width: 982px) {
     .img-text1 {
@@ -157,29 +201,39 @@ header:first-child{
     .p-cont {
         width: 370px;
     }
+
+    .conteudo-cont1 h1 {
+        font-family: Ubuntu, sans-serif;
+        font-size: 4.50rem;
+    }
 }
 
-@media screen and (max-width: 822px) {
+@media screen and (max-width: 835px) {
     .img-text1 {
         width: 330px;
         height: 330px;
     }
 
     .p-cont {
-        width: 300px;
+        width: 340px;
+    }
+
+    .conteudo-cont1 h1 {
+        font-size: 4.20rem;
     }
 }
 
 @media screen and (max-width: 750px) {
 
     .conteudo-cont1 h1 {
-        font-size: 4.0rem;
+        font-size: 3.60rem;
         font-weight: 400;
-        
     }
-    .conteudo-cont1 {
-        justify-content: center;
+
+    .p-cont{
+        width: 330px;
     }
+
 
     .img-text1 {
         width: 280px;
@@ -254,5 +308,22 @@ header:first-child{
         margin-top: 55px;
         width: 305px;
         height: 305px;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .conteudo-cont1 h1 {
+        font-size: 3.0rem;
+        font-weight: 500;
+    }    
+
+    .img-text1 {
+        width: 265px;
+        height: 265px;
+    }
+
+    .texto-cont1{
+        align-items: center;
+        justify-content: center;
     }
 }
