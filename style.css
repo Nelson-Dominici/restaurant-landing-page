@@ -109,6 +109,8 @@ header:first-child{
 
 .texto-cont1 button:hover{
     background-color: black;
+    transition: background 0.3s;
+
 
 }
 
@@ -177,9 +179,76 @@ header:first-child{
     transform: scale(1.1)
 }
 
+/*------------------------------------ conatainer-2 ------------------------------------*/
+
+.conatainer-2{
+    height: 103vh;
+    background-image: url("images/container-2-imgs/3007283.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conte-cont2{
+    margin-left: 60px;
+}
+
+.conte-cont2 h2{
+    font-family: Montserrat,sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+
+}
+
+.conte-cont2 h1{
+    font-size: 6rem;
+    font-family: Alata;
+    color: white;
+    
+}
+
+.conte-cont2 p{
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.125rem;
+    margin-top: 20px;
+}
+
+.conte-cont2 span{
+    border-bottom: 1px solid #c41921;
+}
+
+.conte-cont2 button{
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 1.125rem;
+    letter-spacing: 2px;
+    padding: 17px 41px 18px;
+    background-color: #c41921;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.conte-cont2 button:hover{
+    background-color: black;
+    transition: background 0.3s;
+}
+
 /*-------------------------------------- responsivo -----------------------------------*/
 
 @media screen and (max-width: 1176px) {
+
+    .conatainer-2{
+        height: 55vh;
+
+    }
+
     .conteudo-cont2 {
         grid-template-columns: 238px 238px 238px 238px;
 
@@ -245,6 +314,10 @@ header:first-child{
 }
 
 @media screen and (max-width: 750px) {
+
+    .conte-cont2 h1 {
+        font-size: 3.50rem;
+    }
 
     .conteudo-cont1 {
         flex-direction: column;
@@ -321,6 +394,17 @@ header:first-child{
         height: 350px;
     }
 }
+
+@media screen and (max-width: 572px) {
+    .h2-cont2{
+        width: 320px;
+    }
+
+    .h2-cont2 {
+        margin-top: 100px;
+    }
+}
+
 
 @media screen and (max-width: 506px) {
     .p-cont {
