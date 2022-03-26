@@ -31,7 +31,7 @@ header:first-child{
     margin-right: 130px;
 }
 
-/*--------------------------------------- menu -------------------------------------*/
+/*-------------------------------------- menu -------------------------------------*/
 
 #menu {
     background-color: rgba(0, 0, 0, 0.521);
@@ -133,7 +133,7 @@ header:first-child{
     margin-top: -12px;
 }
 
-/*--------------------------------------- img-cont1 ---------------------------------------*/
+/*------------------------------------- img-cont1 ---------------------------------------*/
 
 .img-text1{
     width: 450px;
@@ -179,7 +179,7 @@ header:first-child{
     transform: scale(1.1)
 }
 
-/*------------------------------------ conatainer-2 ------------------------------------*/
+/*----------------------------------- conatainer-2 ----------------------------------*/
 
 .conatainer-2{
     height: 95vh;
@@ -209,7 +209,6 @@ header:first-child{
     font-size: 6rem;
     font-family: Alata;
     color: white;
-    
 }
 
 .conte-cont2 p{
@@ -235,12 +234,144 @@ header:first-child{
     cursor: pointer;
 }
 
-.conte-cont2 button:hover{
-    background-color: black;
-    transition: background 0.3s;
+/*--------------------------------------- main ----------------------------------------*/
+
+ main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
 }
 
-/*-------------------------------------- responsivo -----------------------------------*/
+#conteudo-main{
+    display: grid;
+    grid-template-columns: 560px 560px;
+    grid-template-rows: 260px 260px 260px;
+    grid-gap: 10px;
+
+}
+
+.buguerCont{
+    width: 560px;
+    height: 260px;
+}
+
+.descritionBuguer{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.descritionBuguer div{
+    width: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.descritionBuguer div p{
+    line-height: 1.70;
+}
+
+.descritionBuguer h2{
+    font-family: Montserrat, sans-serif;
+    font-size: 2.2rem;
+}
+
+.text-buguerCont{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#buguer1{
+    background-image: url("images/main-imgs/buguer-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#buguer2{
+    background-image: url("images/main-imgs/buguer-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#buguer3{
+    background-image: url("images/main-imgs/buguer-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#buguer4{
+    background-image: url("images/main-imgs/buguer-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#buguer5{
+    background-image: url("images/main-imgs/buguer-5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#buguer6{
+    background-image: url("images/main-imgs/buguer-6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.buguerCont h4{
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.45rem;
+
+}
+ 
+.buguerCont h5{
+    color: #ef5a60;
+    font-size: 1.20rem;
+    font-family: Montserrat, sans-serif;
+    margin-top: 20px;
+}
+
+.button-buguerCont{
+    margin-top: 20px;
+
+}
+
+.button-buguerCont button{
+    border: none;
+    border-radius: 50px !important;
+    color: white;
+    background-color: #cf1821;
+    padding: 14px;
+    width: 165px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-buguerCont button:active{
+    outline: 2px solid #cf1821;
+    background-color: black;
+    color: #c41921;
+
+}
+    
+
+/*------------------------------------- responsivo -----------------------------------*/
 
 @media screen and (max-width: 1176px) {
 
