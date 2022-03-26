@@ -182,7 +182,7 @@ header:first-child{
 /*------------------------------------ conatainer-2 ------------------------------------*/
 
 .conatainer-2{
-    height: 90vh;
+    height: 95vh;
     background-image: url("images/container-2-imgs/3007283.jpg");
     background-size: cover;
     background-position: center;
@@ -245,7 +245,7 @@ header:first-child{
 @media screen and (max-width: 1176px) {
 
     .conatainer-2{
-        height: 55vh;
+        height: 80vh;
 
     }
 
