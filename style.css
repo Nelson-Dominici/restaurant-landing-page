@@ -278,7 +278,7 @@ header:first-child{
 }
 
 .text-buguerCont{
-    width: 50%;
+    width: 280px;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.479);
     display: flex;
@@ -389,10 +389,32 @@ header:first-child{
         width: 238px;
         height: 238px;
     }
+
+    #conteudo-main {
+        grid-template-columns: 473px 473px;
+        grid-template-rows: 263px 263px 263px;
+    }
+
+    .buguerCont {
+        width: 473px;
+        height: 263px;
+    }
 }
 
 
+
 @media screen and (max-width: 982px) {
+
+
+    #conteudo-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buguerCont {
+        width: 720px;
+        height: 263px;
+    }
 
     .conteudo-cont2 {
         grid-template-columns: 350px 350px;
@@ -444,6 +466,38 @@ header:first-child{
     }
 }
 
+@media screen and (max-width: 788px) {
+
+    .buguerCont {
+        width: 550px;
+        height: 255px;
+    }
+
+    .descritionBuguer div {
+        width: 505px;
+    }
+
+    #buguer1 {
+        background-position: 80% 80%;
+    }
+    #buguer2 {
+        background-position: 80% 80%;
+    }
+    #buguer3 {
+        background-position: 80% 80%;
+    }
+    #buguer4 {
+        background-position: 80% 80%;
+    }
+    #buguer5 {
+        background-position: 80% 80%;
+    }
+    #buguer6 {
+        background-position: 80% 80%;
+    }
+}
+
+
 @media screen and (max-width: 750px) {
 
     .conte-cont2 h1 {
@@ -489,7 +543,7 @@ header:first-child{
 
 @media screen and (max-width: 694px) {
     .p-cont {
-        width: 270px;
+        width: 490px;
     }
 
     .conteudo-cont1 h1 {
@@ -497,8 +551,8 @@ header:first-child{
     }
 
     .img-text1 {
-        width: 260px;
-        height: 260px;
+        width: 360px;
+        height: 360px;
     }
 }
 
@@ -524,6 +578,12 @@ header:first-child{
         width: 350px;
         height: 350px;
     }
+
+    .buguerCont {
+        width: 90vw;
+        height: 255px;
+    }
+
 }
 
 @media screen and (max-width: 572px) {
@@ -533,6 +593,10 @@ header:first-child{
 
     .h2-cont2 {
         margin-top: 100px;
+    }
+
+    .descritionBuguer div {
+        width: 420px;
     }
 }
 
@@ -551,6 +615,18 @@ header:first-child{
         height: 360px;
     }
 }
+
+
+@media screen and (max-width: 468px) {
+    .descritionBuguer div {
+        width: 358px;
+    }
+
+    .text-buguerCont {
+        width: 240px;
+    }
+}
+
 
 @media screen and (max-width: 418px) {
     header:first-child {
@@ -579,6 +655,27 @@ header:first-child{
     .imgCont {
         width:  340px;
         height: 330px;
+    }
+
+    .text-buguerCont {
+        width: 200px;
+    }
+
+    .descritionBuguer div {
+        width: 300px;
+    }
+
+    .buguerCont h4 {
+        color: white;
+        font-family: Montserrat, sans-serif;
+        font-size: 1.40rem;
+    }
+}
+
+
+@media screen and (max-width: 396px) {
+    .h2-cont2 {
+        width: 280px;
     }
 }
 
