@@ -304,7 +304,7 @@ header:first-child{
 
 #buguer3{
     background-image: url("images/main-imgs/buguer-3.jpg");
-    background-position: center;
+    background-position: 85% 85%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -400,8 +400,6 @@ header:first-child{
         height: 263px;
     }
 }
-
-
 
 @media screen and (max-width: 982px) {
 
