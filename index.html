@@ -308,15 +308,24 @@
 
     <section class="conteiner-3">
 
-        <div id="meuCarrosel" class="carousel slide" data-ride="carousel">
-
-            <div class="carousel-innen">
+        <div id="meuCarrossel" class="carousel slide" data-ride="carousel">
 
 
-                <div class="carousel-item active">
+            <ul class="carousel-indicators">
+
+                <li data-target="#meuCarrossel" data-slide-to="0" class="active" id="botao"></li>
+                <li data-target="#meuCarrossel" data-slide-to="1" id="botao2"></li>
+
+            </ul>
+
+
+            <div class="carousel-inner">
+
+
+                <div id="carousel-item-1" class="carousel-item active">
 
                     <div class="text-carousel">
-                        <img src="images/container-3-imgs/download.png" width="40px" height="40px">
+                        <img src="images/container-3-imgs/download.png" width="60px" height="60px">
                         <h3>Burgers</h3>
 
                         <div class="p-carousel">
@@ -326,6 +335,8 @@
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                             </p>
                         </div>
+                        <button>VIEW MENU</button>
+
                     </div>
 
                 </div>
@@ -333,7 +344,7 @@
                 <div class="carousel-item">
 
                     <div class="text-carousel">
-                        <img src="images/container-3-imgs/download.png" width="40px" height="40px">
+                        <img src="images/container-3-imgs/download.png" width="60px" height="60px">
                         <h3>Burgers</h3>
                     
                         <div class="p-carousel">
@@ -343,14 +354,32 @@
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                             </p>
                         </div>
+                        <button>VIEW MENU</button>
+
                     </div>
 
                 </div>
 
 
+                <a class="carousel-control-prev" href="#meuCarrossel" data-slide="prev">
+
+                    <img id="rotate" src="images/right-arrow (1).png">
+        
+                </a>
+        
+                <a  aria-hidden="true" class="carousel-control-next" href="#meuCarrossel" data-slide="next">
+                    
+                    <img id="rotate2" src="images/right-arrow (1).png">
+    
+                </a>
+
             </div>
 
+
+
         </div>
+
+        
 
     </section>
 
