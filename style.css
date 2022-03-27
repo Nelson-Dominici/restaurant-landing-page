@@ -437,7 +437,6 @@ header:first-child{
 }
 
 .text-carousel button{
-    margin-top: 15px;
     padding: 7px;
     border: 2px solid #c41921;
     color: black;
@@ -494,6 +493,17 @@ header:first-child{
     margin-top: 230px
 
 }
+
+/*------------------------------------- swiper -----------------------------------*/
+
+
+.swiper{
+
+    background-color: white;
+    display: none;
+}
+
+
 
 /*------------------------------------- responsivo -----------------------------------*/
 
@@ -730,7 +740,11 @@ header:first-child{
     }
 
     #meuCarrossel{
-        width: 360px;
+        display: none;
+    }
+
+    .conteiner-3{
+        height: 105vh;
     }
 
     .carousel-control-prev{
@@ -739,6 +753,40 @@ header:first-child{
 
     .carousel-control-next{
         display: none !important;
+    }
+
+    .swiper{
+        display: flex;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        height: 485px;
+        width: 360px;
+    }
+
+    #slide-div-b{
+        border: 1px solid rgba(163, 163, 163, 0.507);
+    }
+
+    .text-carousel{
+        margin-top: 40px;
+        transition: 2s;
+    }
+
+    .text-carousel button {
+        padding: 10px;
+    }
+
+    #btn-slider{
+        margin-bottom: 15px;
+    }
+
+.swiper-pagination-bullet-active { 
+    background-color: #b3b3b3;
+
+}
+    .p-carousel{
+        margin-bottom: 25px;
+
     }
 
 }
@@ -768,6 +816,15 @@ header:first-child{
     .text-buguerCont {
         width: 240px;
     }
+
+    .swiper {
+        width: 86vw;
+    }
+
+    .p-carousel {
+        width: 70vw;
+    }
+
 }
 
 
@@ -819,6 +876,10 @@ header:first-child{
 @media screen and (max-width: 396px) {
     .h2-cont2 {
         width: 280px;
+    }
+
+    .p-carousel {
+        margin-bottom: 13px;
     }
 }
 
