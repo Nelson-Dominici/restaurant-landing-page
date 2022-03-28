@@ -496,14 +496,119 @@ header:first-child{
 
 /*------------------------------------- swiper -----------------------------------*/
 
-
 .swiper{
 
     background-color: white;
     display: none;
 }
 
+/*------------------------------------- footer -----------------------------------*/
 
+footer{
+    height: 100vh;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.img-footer{
+    background-image: url("images/footer-img/fgfg54-min.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;;
+    width: 40%;
+    height: 100%;
+}
+
+footer h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    font-family: Montserrat,sans-serif;
+}
+
+footer p{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    font-family: Montserrat,sans-serif;
+}
+
+footer input{
+    width: 320px;
+    border: none;
+    background-color: rgba(240, 255, 255, 0);
+    border-bottom: 2px solid white;
+    color: white;
+    padding: 9px;
+    font-size: 1.1rem;
+    font-weight: 500 !important;
+}
+
+footer a{
+    list-style: none;
+}
+
+footer button{
+    padding: 10px;
+    background-color: #eb1520;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    width: 120px;
+    cursor: pointer;
+    outline: none !important;
+    margin-left: 15px;
+}
+
+footer section{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container-text-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+.location p{
+    margin-top: 25px;
+    line-height: 1.8;
+
+}
+
+.div-input-f{
+    margin-top: 60px;
+}
+
+.sunbscrabe-f{
+    text-align: center;
+}
+
+.info-contai{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-contai div{
+    text-align: right;
+    margin-top: 120px;
+}
+
+.info-contai h2{
+    font-size: 1.50rem;
+    letter-spacing: 1px;
+}
+
+.info-contai p{
+    font-size: 15px;
+    letter-spacing: normal ;
+}
 
 /*------------------------------------- responsivo -----------------------------------*/
 
@@ -532,6 +637,11 @@ header:first-child{
     .buguerCont {
         width: 473px;
         height: 263px;
+    }
+
+    .img-footer {
+        height: 65%;
+        width: 45%;
     }
 }
 
@@ -579,6 +689,49 @@ header:first-child{
     .conteudo-cont1 h1 {
         font-family: Ubuntu, sans-serif;
         font-size: 4.50rem;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    
+    .sunbscrabe-f{
+        margin-top: 40px;
+    }
+
+    .img-footer {
+        height: 65%;
+        width: 80%;
+    }
+    
+    .info-contai{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    #br-footer{
+        display: none;
+    }
+
+    .location p{
+        line-height: 2;
+    }
+
+    .container-text-footer {
+        width: 70%;
+    }
+
+    .tex-footer{
+        width: 100%;
+    }
+
+    .div-input-f{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer input {
+        width: 470px;
     }
 
 }
@@ -631,6 +784,44 @@ header:first-child{
 
 
 @media screen and (max-width: 750px) {
+
+    .info-contai{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-contai div {
+        text-align: center;
+    }
+
+    .info-contai h2 {
+        font-size: 1.70rem;
+    }
+
+    #pwspan{
+        margin-bottom: 40px;
+    }
+
+    .follow{
+        margin-top: 60px !important;
+    }
+
+    .div-input-f{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .div-input-f button{
+        width: 470px;
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    footer{
+        height: 140vh;
+    }
 
     .conte-cont2 h1 {
         font-size: 3.50rem;
@@ -788,6 +979,20 @@ header:first-child{
         margin-bottom: 25px;
 
     }
+
+
+    .div-input-f{
+        width: 100%;
+    }
+
+    .container-text-footer {
+        width: 100%;
+    }
+
+    .div-input-f button, .div-input-f input{
+        width: 80%;
+    }
+
 
 }
 
