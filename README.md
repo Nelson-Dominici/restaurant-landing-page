@@ -19,8 +19,4 @@
      <img align="center" alt="Nelson-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg">
 </div>
 
-<h3 align="center"><b> 🖥Preview</b></h3>
-
-<p align="center">
-    <img src="gif-hango.gif" width="80%" height="80%">
-</p>
+https://nelson-dominici.github.io/Nike-landing-page/
