@@ -20,6 +20,6 @@
 </div>
 
     
-<h1 align="center"><a href="https://nelson-dominici.github.io/restaurant-landing-page/>Teste Você Mesmo</a></p></h1>
+<h1 align="center"><a href="https://nelson-dominici.github.io/restaurant-landing-page"/>Teste Você Mesmo</a></p></h1>
     
 
